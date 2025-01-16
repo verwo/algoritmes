@@ -34,6 +34,8 @@ Algoritmes stellen ons in staat om efficiëntere en snellere oplossingen te vind
 3. Bedenk een algoritme om een lijst van getallen te sorteren.
 4. Maak een flowchart van het algoritme om een boek in een bibliotheek te vinden.
 
+>
+
 #### Uitleg over flowcharts
 Een flowchart is een diagram dat een proces of een algoritme visueel weergeeft. Het helpt om de logica en stappen van een algoritme beter te begrijpen. Hier zijn de meest gebruikte elementen in een flowchart:
 
@@ -46,11 +48,11 @@ Een flowchart is een diagram dat een proces of een algoritme visueel weergeeft. 
 
 ```mermaid
 graph TD;
-    Start[Ga naar de bibliotheek] --> Zoek[Zoek in de catalogus naar het boek];
+    Start((Start)) --> Zoek[Zoek in de catalogus naar het boek];
     Zoek --> Beslissing{Is het boek beschikbaar?};
     Beslissing -->|Ja| Planklocatie[Ga naar de planklocatie];
     Beslissing -->|Nee| Hulp[Vraag de bibliothecaris om hulp of zoek een ander boek];
-    Planklocatie --> Eind[Vind of leen het boek];
+    Planklocatie --> Eind((Eind));
     Hulp --> Eind;
 ```
 
