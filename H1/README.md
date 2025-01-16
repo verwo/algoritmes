@@ -28,10 +28,10 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    [*] --> select_date;
-    select_date --> select_time;
-    select_time --> current_status;
-    current_status --> cancel: status_available;
-    current_status --> [*]: status_over;
-    cancel --> [*];
+    Start[Ga naar de bibliotheek] --> Zoek[Zoek in de catalogus naar het boek];
+    Zoek --> Beslissing{Is het boek beschikbaar?};
+    Beslissing -->|Ja| Planklocatie[Ga naar de planklocatie];
+    Beslissing -->|Nee| Hulp[Vraag de bibliothecaris om hulp of zoek een ander boek];
+    Planklocatie --> Eind[Vind of leen het boek];
+    Hulp --> Eind;
 ```
