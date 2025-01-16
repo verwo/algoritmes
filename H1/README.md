@@ -27,7 +27,6 @@ Algoritmes stellen ons in staat om efficiëntere en snellere oplossingen te vind
 Here is a simple flow chart:
 
 ```mermaid
-```mermaid
 graph TD;
     [*] --> select_date;
     select_date --> select_time;
