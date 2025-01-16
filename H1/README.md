@@ -19,9 +19,8 @@ Algoritmes stellen ons in staat om efficiëntere en snellere oplossingen te vind
 
 ### Oefeningen
 1. Beschrijf een algoritme om een boek in een bibliotheek te vinden.
-2. Schrijf in eigen woorden een stappenplan om een taart te bakken.
-3. Bedenk een algoritme om een lijst van getallen te sorteren.
-4. Maak een flowchart van het algoritme om een boek in een bibliotheek te vinden.
+2. Bedenk een algoritme om een lijst van getallen te sorteren.
+3. Maak een flowchart van het algoritme om getallen te sorteren.
 
 >#### 💡 Over flowcharts
 > Een flowchart is een diagram dat een proces of een algoritme visueel weergeeft. Het helpt om de logica en stappen van een algoritme beter te begrijpen. Hier zijn de meest gebruikte elementen in een flowchart:
