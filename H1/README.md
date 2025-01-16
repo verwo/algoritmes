@@ -27,11 +27,12 @@ Algoritmes stellen ons in staat om efficiëntere en snellere oplossingen te vind
 Here is a simple flow chart:
 
 ```mermaid
+```mermaid
 graph TD;
-    [*] --> select_date
-    select_date --> select_time
-    select_time --> current_status
-    current_status --> cancel: status_available
-    current_status --> [*]: status_over
-    cancel --> [*]
+    [*] --> select_date;
+    select_date --> select_time;
+    select_time --> current_status;
+    current_status --> cancel: status_available;
+    current_status --> [*]: status_over;
+    cancel --> [*];
 ```
