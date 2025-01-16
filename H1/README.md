@@ -30,7 +30,7 @@ Algoritmes stellen ons in staat om efficiëntere en snellere oplossingen te vind
 > - **Ruiten:** Deze geven beslispunten aan, zoals "Is het boek beschikbaar?". Het proces splitst hier afhankelijk van het antwoord (bijvoorbeeld ja of nee).
 > - **Pijlen:** Deze tonen de volgorde waarin de stappen moeten worden uitgevoerd.
 
-> #### Voorbeeld flowchart in Mermaid
+> #### Voorbeeld flowchart
 
 ```mermaid
 graph TD;
@@ -48,6 +48,3 @@ Gebruik bovenstaande uitleg en elementen om je eigen flowchart te maken.
 
 
 ---
-
-Laat weten of dit aanpassingen nodig heeft of dat we verder kunnen uitbreiden op hoofdstuk 1!
-
