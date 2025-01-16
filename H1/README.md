@@ -1,3 +1,6 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
+</script>
+
 # 1. Wat is een algoritme?
 ## Definitie van een algoritme
 Een algoritme is een reeks instructies die worden gevolgd om een probleem op te lossen of een taak uit te voeren. Het is de basis van computerprogrammering en speelt een cruciale rol in softwareontwikkeling. Een algoritme kan eenvoudig zijn, zoals een recept voor het bakken van een taart, of complex, zoals een routeplanner.
@@ -31,3 +34,13 @@ stateDiagram-v2
     current_status --> [*]: status_over
     cancel --> [*]
 ---
+<div class="mermaid">
+stateDiagram-v2
+    [*] --> select_time
+    select_time --> current_status
+    current_status --> cancel: status_available
+    current_status --> [*]: status_over
+    cancel --> [*]
+</div>
+
+<script> mermaid.initialize({ startOnLoad: true });</script>
