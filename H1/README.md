@@ -23,4 +23,11 @@ Algoritmes stellen ons in staat om efficiëntere en snellere oplossingen te vind
 2. Schrijf in eigen woorden een stappenplan om een taart te bakken.
 3. Bedenk een algoritme om een lijst van getallen te sorteren.
 
+stateDiagram-v2
+    [*] --> select_date
+    select_date --> select_time
+    select_time --> current_status
+    current_status --> cancel: status_available
+    current_status --> [*]: status_over
+    cancel --> [*]
 ---
