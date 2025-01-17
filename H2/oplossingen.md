@@ -28,9 +28,9 @@
 
    ```mermaid
    graph TD;
-       Start((Start)) --> CheckMidden{Is lijst[midden] == 10?};
+       Start((Start)) --> CheckMidden{waarde_midden == 10?};
        CheckMidden -->|Ja| Gevonden((Gevonden));
-       CheckMidden -->|Nee| Compare{Is lijst[midden] > 10?};
+       CheckMidden -->|Nee| Compare{waarde_midden > 10?};
        Compare -->|Ja| UpdateHoog[hoog = midden - 1];
        Compare -->|Nee| UpdateLaag[laag = midden + 1];
        UpdateHoog --> CheckMidden;
